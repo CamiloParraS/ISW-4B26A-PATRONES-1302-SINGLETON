@@ -11,7 +11,7 @@ public class CarFactory {
     }
 
     // Public method to get the single instance
-    public static synchronized CarFactory getInstance() {
+    public static CarFactory getInstance() {
         if (instance == null) {
             instance = new CarFactory();
         }
